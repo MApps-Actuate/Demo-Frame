@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.actuate.istudio.analysis.model:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.actuate.istudio.analysis.model="http:///com.actuate.istudio.analysis.model.ecore" name="Demo-Frame">
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="ThemesOTDemo.rptlibrary" path="/Demo-Frame/ThemesOTDemo.rptlibrary" reports="//@files.1 //@files.2"/>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="Document Details.rptdesign" path="/Demo-Frame/Report Designs/Document Details.rptdesign" libraries="//@files.0">
+    <missingDependencies>platform:/resource/Demo-Frame/Report%20Libraries/DemoFrame.rptlibrary</missingDependencies>
+    <dataSets name="Data Set">
+      <columns name="ORDERNUMBER"/>
+      <columns name="ORDERDATE"/>
+      <columns name="REQUIREDDATE"/>
+      <columns name="SHIPPEDDATE"/>
+      <columns name="STATUS"/>
+      <columns name="COMMENTS"/>
+      <columns name="CUSTOMERNUMBER"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptDesign" name="SideBySide.rptdesign" path="/Demo-Frame/Report Designs/SideBySide.rptdesign" libraries="//@files.0">
+    <missingDependencies>platform:/resource/Demo-Frame/Report%20Libraries/DemoFrame.rptlibrary</missingDependencies>
+    <dataSets name="Data Set">
+      <columns name="CUSTOMERNUMBER"/>
+      <columns name="CUSTOMERNAME"/>
+      <columns name="CONTACTLASTNAME"/>
+      <columns name="CONTACTFIRSTNAME"/>
+      <columns name="PHONE"/>
+      <columns name="ADDRESSLINE1"/>
+      <columns name="ADDRESSLINE2"/>
+      <columns name="CITY"/>
+      <columns name="STATE"/>
+      <columns name="POSTALCODE"/>
+      <columns name="COUNTRY"/>
+      <columns name="SALESREPEMPLOYEENUMBER"/>
+      <columns name="CREDITLIMIT"/>
+    </dataSets>
+  </files>
+  <files xsi:type="com.actuate.istudio.analysis.model:RptLibrary" name="DemoFrame.rptlibrary" path="/Demo-Frame/Report Libraries/DemoFrame.rptlibrary"/>
+</com.actuate.istudio.analysis.model:Project>

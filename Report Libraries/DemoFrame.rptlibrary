@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 4.8.0.v201804241733</property>
+    <property name="units">in</property>
+    <property name="theme">defaultTheme</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">/ThemesReportItems31.rptlibrary</property>
+            <property name="namespace">ThemesReportItems31</property>
+        </structure>
+    </list-property>
+    <themes>
+        <theme name="defaultTheme" id="4"/>
+    </themes>
+    <components>
+        <text name="Banner for Report" id="5">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<script>
+	$('head').append('<link id="myCSS" rel="stylesheet" type="text/css" href="/iportal/servlet/DownloadFile/blank.css?name=/Applications/CHANGE ME/css/blank.css&amp;fileExtension=css&amp;__vp=Default%20Volume&amp;volume=Default%20Volume&amp;showBanner=false">');
+	$("#myCSS").attr("href", "/iportal/servlet/DownloadFile/overrideActuate_2019.css?name=/Applications/CHANGE ME/css/overrideActuate_2019.css&amp;fileExtension=css&amp;__vp=Default%20Volume&amp;volume=Default%20Volume&amp;showBanner=false");
+	$(".floatPanel").css("margin-top","-25px");
+</script>
+
+<div id="banner" align="left" style="height:65px;">
+	<table id="bannerHeading" width="100%">
+		<tbody>
+			<tr style="vertical-align:middle;">
+				<td width="30%" align="left" style="white-space: nowrap;">
+					<img src="/iportal/servlet/DownloadFile/Home Banner.png?name=/Applications/CHANGE ME/Images/Home%20Banner.png&amp;fileExtension=png&amp;__vp=Default%20Volume&amp;volume=Default%20Volume&amp;showBanner=false" height="50px" style="padding-left:20px"><span style="vertical-align:super; white-space: nowrap;">APPLICATION TITLE</span>
+				</td>
+				<td width="30%" align="center">
+					<img src="/iportal/servlet/DownloadFile/Home Banner.png?name=/Applications/CHANGEME/Images/OT%20Magellan.png&amp;fileExtension=png&amp;__vp=Default%20Volume&amp;volume=Default%20Volume&amp;showBanner=false" height="50px">
+				</td>
+				<td width="40%" align="right">
+					<img src="/iportal/servlet/DownloadFile/Home Banner.png?name=/Applications/CHANGEME/Images/userhead.png&amp;fileExtension=png&amp;__vp=Default%20Volume&amp;volume=Default%20Volume&amp;showBanner=false" height="50px" style="padding-right:20px">
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+ ]]></text-property>
+        </text>
+        <text name="FontAwesome" id="6">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<script src="https://use.fontawesome.com/3edbcdbcb7.js"></script>]]></text-property>
+        </text>
+    </components>
+    <page-setup>
+        <simple-master-page name="NewSimpleMasterPage" id="3"/>
+    </page-setup>
+</library>
